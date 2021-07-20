@@ -1,7 +1,7 @@
 import UIKit
 
 
-//20. Valid Parentheses
+//
 
 func isValid(_ s: String) -> Bool {
     
@@ -24,7 +24,7 @@ func isValid(_ s: String) -> Bool {
             stack.removeLast()
         }
         else {
-            return false 
+            return false
         }
     }
     
